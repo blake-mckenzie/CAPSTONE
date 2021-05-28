@@ -1,4 +1,4 @@
-package com.codewithharry.multiscreen;
+package com.example.multiplescreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,10 +1,12 @@
-package com.codewithharry.multiscreen;
+package com.example.multiplescreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.multiplescreen.R;
 
 public class OrderActivity extends AppCompatActivity {
 
@@ -14,7 +16,7 @@ public class OrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_order);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.MSG);
+        String message = intent.getStringExtra(com.example.multiplescreen.MainActivity.MSG);
 
         // Set text inside textview to message
         TextView textView = findViewById(R.id.orderText);
