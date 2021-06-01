@@ -18,7 +18,7 @@ public class OrderActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(com.example.multiplescreen.MainActivity.MSG);
 
-        // Set text inside textview to message
+        // Set text inside texone pictview to message
         TextView textView = findViewById(R.id.orderText);
         textView.setText(message);
 
