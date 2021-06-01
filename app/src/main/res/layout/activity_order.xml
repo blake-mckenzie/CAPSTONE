@@ -23,4 +23,10 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingTop="500dp"
+        android:src="@drawable/dancingmonkey" />
 </androidx.constraintlayout.widget.ConstraintLayout>
