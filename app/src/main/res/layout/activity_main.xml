@@ -4,19 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="23sp"
-        android:text="Welcome To Blake's Restaurant!"
+        android:text="Welcome To The Dancing Monkey!"
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textColorHighlight="@color/teal_200"
         />
 
     <EditText
@@ -87,9 +91,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="100dp"
-            android:paddingTop="500dp"
+            android:paddingTop="600dp"
+
             android:src="@drawable/dancingmonkey" />
     </LinearLayout>
+<pl.droidsonroids.gif.GifImageView
+   android:paddingTop="100dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/cartoonmonkey"
+    tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
