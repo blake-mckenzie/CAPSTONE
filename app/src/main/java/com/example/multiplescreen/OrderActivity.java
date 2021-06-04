@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.multiplescreen.R;
@@ -18,12 +19,18 @@ public class OrderActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(com.example.multiplescreen.MainActivity.MSG);
 
-        // Set text inside textview to message
+        // Set text inside texone pictview to message
         TextView textView = findViewById(R.id.orderText);
         textView.setText(message);
 
 
 
     }
+
+    public void thankYou(View view) {
+        Intent i = new Intent(this,ThankYou.class);
+        startActivity(i);
+    }
+
 }
 
