@@ -23,7 +23,11 @@
         android:textAllCaps="true"
         android:textColorHighlight="@color/teal_200"
         />
-
+    <TextView
+       android:text="Thank You for Choosing Monkey"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        tools:ignore="MissingConstraints" />
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
